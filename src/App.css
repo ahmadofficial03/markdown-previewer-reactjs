@@ -1,0 +1,63 @@
+
+body {
+  background-color: #dfe4ea;
+}
+.App {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: pink;
+}
+
+
+textarea {
+  border: none;
+  outline: none;
+  min-height: 150px;
+  min-width: 600px;
+}
+
+.markdown-editor {
+  width: 605px;
+  margin-bottom: 30px;
+}
+
+#preview {
+  background-color: #2f3542;
+  color: #fff;
+  text-align: left;
+  padding: 30px;
+  width: 800px;
+}
+
+#preview pre {
+  display: block;
+  overflow: auto;
+  background: #fff;
+  padding: 5px;
+  line-height: 1.2;
+  color: #333;
+}
+
+#preview code {
+  background-color: #fff;
+  color: #333;
+}
+
+
+img {
+  width: 200px;
+  height: 100px;
+}
